@@ -25,11 +25,5 @@ export class LoginService {
     this.router.navigate(['login']);
   }
 
-  isAuthenticated(): boolean {
-    if (localStorage.getItem("user")) {
-      return true
-    } else {
-      return false
-    }
-  }
+  isAuthenticated = () => localStorage.getItem("user") ? true : false;
 }
