@@ -1,0 +1,29 @@
+:host {
+  width: 100%;
+  height: 50px;
+  background: lightcyan;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
+
+.active {
+  color: orange;
+  background: darkviolet;
+}

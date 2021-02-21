@@ -1,0 +1,23 @@
+:host {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+mat-card {
+  text-align: center;
+  width: 300px;
+  height: 150px;
+  margin: 20px;
+}
+
+.show__more {
+  margin: 20px;
+}
+
+.mat-form-field {
+  width: 95%;
+}
